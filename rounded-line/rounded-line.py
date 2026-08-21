@@ -14,11 +14,11 @@ mt5.shutdown()
 //+------------------------------------------------------------------+
 void OnStart()
   {
-   // گرفتن ورودی ها از کاربر
+  # // گرفتن ورودی ها از کاربر
    double red = 0;
    double green = 0;
 
-   // استفاده از InputBox برای گرفتن ورودی از کاربر (فقط در MetaEditor)
+  # // استفاده از InputBox برای گرفتن ورودی از کاربر (فقط در MetaEditor)
    red = StringToDouble(InputBox("Enter value for red:", "User Input", "0"));
    green = StringToDouble(InputBox("Enter value for green:", "User Input", "0"));
    
@@ -69,4 +69,4 @@ void OnStart()
    double yek_hashtom_blue = (green + yek_dovom_blue) / 2;
    Print("1/8blue_asli : ", yek_hashtom_blue);
   }
-//+------------------------------------------------------------------+
+
